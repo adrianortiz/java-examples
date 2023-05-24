@@ -1,4 +1,4 @@
-package pruebas;
+package com.codizer.pruebas;
 
 public class CarroDaoImp implements CarroDao{
 
