@@ -15,6 +15,7 @@ public class RemoveIf {
         lista.add("que");
         lista.add("tal");
 
+        // Using predicate, one parameter, return boolean
         lista.removeIf((t)->t.equals("hola"));
         lista.stream().forEach(System.out::println);
 
