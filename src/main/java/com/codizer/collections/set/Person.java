@@ -51,6 +51,7 @@ public class Person implements Comparable {
                 '}';
     }
 
+    /*
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -62,6 +63,20 @@ public class Person implements Comparable {
     @Override
     public int hashCode() {
         return Objects.hash(dni);
+    }
+     */
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return Objects.equals(dni, person.dni) && Objects.equals(name, person.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(dni, name);
     }
 
     @Override
