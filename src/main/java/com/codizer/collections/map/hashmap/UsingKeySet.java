@@ -1,9 +1,9 @@
-package com.codizer.collections.map;
+package com.codizer.collections.map.hashmap;
 
 import java.util.HashMap;
 import java.util.Set;
 
-public class UsingMapKeySet {
+public class UsingKeySet {
 
     public static void main(String[] args) {
 

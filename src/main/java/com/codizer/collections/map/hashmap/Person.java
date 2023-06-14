@@ -1,4 +1,4 @@
-package com.codizer.collections.map;
+package com.codizer.collections.map.hashmap;
 
 public class Person {
 

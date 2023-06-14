@@ -1,8 +1,8 @@
-package com.codizer.collections.map;
+package com.codizer.collections.map.hashmap;
 
 import java.util.HashMap;
 
-public class UsingMap {
+public class UsingHashMap {
 
     public static void main(String[] args) {
 
